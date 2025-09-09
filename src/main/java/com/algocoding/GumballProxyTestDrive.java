@@ -20,8 +20,6 @@ public class GumballProxyTestDrive {
             try {
                 GumballMachineRemote machine = (GumballMachineRemote) Naming.lookup(location[i]);
                 monitor[i] = new GumballProxy(machine);
-                System.out.println("monitor: " + monitor[i]);
-                System.out.println("\n");
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }

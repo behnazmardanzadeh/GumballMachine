@@ -3,6 +3,7 @@ package com.algocoding;
 import java.rmi.Naming;
 
 public class GumballMachineTestDrive {
+    //before running GumballMachineTestDrive run "start rmiregistry" in target/classes path
     public static void main(String[] args) {
         GumballMachineRemote gumballMachine = null;
         int count;
@@ -11,7 +12,7 @@ public class GumballMachineTestDrive {
 //          java GumballMachineTestDrive boulder.mightygumball.com 100
 //          java GumballMachineTestDrive austin.mightygumball.com 250
 
-//          java com.algocoding.server.GumballMachineTestDrive localhost 100
+//          java com.algocoding.GumballMachineTestDrive localhost 100
 
 
             //                           rmi://127.0.0.1
